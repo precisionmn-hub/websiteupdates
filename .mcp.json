@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "bricks-mcp": {
+      "type": "http",
+      "url": "https://env-precisioncommercialcleaning-precisionv2.kinsta.cloud/wp-json/bricks-mcp/v1/mcp",
+      "headers": {
+        "Authorization": "Basic bXBvY3JuaWNoOjFEMEZ6cEdVbWtuZ0R1M1hqdUpDSWE3OQ=="
+      }
+    }
+  }
+}
