@@ -1,0 +1,65 @@
+{
+  "name": "Primary Mobile Menu",
+  "location": "header-mobile",
+  "mobile": {
+    "displayMode": "drilldown",
+    "backLabel": "Back",
+    "rootLabel": "Menu"
+  },
+  "items": [
+    {
+      "label": "Industries",
+      "url": "/industries/",
+      "children": [
+        { "label": "Hospitality",              "url": "/industries/hospitality-cleaning/" },
+        { "label": "Construction",             "url": "/industries/construction-cleaning/" },
+        { "label": "Animal Health & Welfare",  "url": "/industries/animal-care-cleaning/" },
+        { "label": "Health & Fitness",         "url": "/industries/health-fitness-cleaning/" },
+        { "label": "Medical",                  "url": "/industries/medical-office-cleaning/" },
+        { "label": "Retail",                   "url": "/industries/retail-store-cleaning/" },
+        { "label": "Industrial",               "url": "/industries/industrial-cleaning/" },
+        { "label": "Corporate Offices",        "url": "/industries/corporate-office-cleaning/" },
+        { "label": "Commercial Kitchens",      "url": "/industries/commercial-kitchen-cleaning/" },
+        { "label": "Apartments & Condos",      "url": "/industries/apartment-condo-cleaning/" },
+        { "label": "School & Early Childhood", "url": "/industries/school-daycare-cleaning/" }
+      ]
+    },
+    {
+      "label": "Services",
+      "url": "/services/",
+      "children": [
+        { "label": "Janitorial & Custodial",   "url": "/services/janitorial-custodial/" },
+        { "label": "Floor Care & Maintenance", "url": "/services/floor-care/" },
+        { "label": "Specialty Cleaning",       "url": "/services/specialty-cleaning/" },
+        { "label": "Deep Cleaning",            "url": "/services/deep-cleaning/" },
+        { "label": "Green Cleaning",           "url": "/services/green-cleaning/" },
+        { "label": "Disinfection",             "url": "/services/disinfection/" }
+      ]
+    },
+    {
+      "label": "Service Area",
+      "url": "/service-area/",
+      "children": [
+        { "label": "Northwest Metro", "url": "/service-area/northwest-metro/" },
+        { "label": "Southwest Metro", "url": "/service-area/southwest-metro/" },
+        { "label": "Northeast Metro", "url": "/service-area/northeast-metro/" },
+        { "label": "Southeast Metro", "url": "/service-area/southeast-metro/" }
+      ]
+    },
+    {
+      "label": "Resources",
+      "url": null,
+      "children": [
+        { "label": "FAQ", "url": "/resources/faq/" }
+      ]
+    },
+    {
+      "label": "Company",
+      "url": "/",
+      "children": [
+        { "label": "About",   "url": "/company/about/" },
+        { "label": "Careers", "url": "/company/careers/" }
+      ]
+    }
+  ]
+}
